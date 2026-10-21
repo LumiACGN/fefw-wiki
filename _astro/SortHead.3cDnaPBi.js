@@ -1,1 +1,0 @@
-import{t as e}from"./jsxRuntime.module.Cd4Jc0-E.js";function t({label:t,column:n,sort:r,dir:i,onSort:a,className:o}){let s=r===n;return e(`th`,{class:o,"aria-sort":s?i===`desc`?`descending`:`ascending`:`none`,children:e(`button`,{type:`button`,class:s?`sort-head active`:`sort-head`,onClick:()=>a(n),children:[t,s?i===`desc`?` ↓`:` ↑`:``]})})}export{t};
